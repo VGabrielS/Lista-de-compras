@@ -27,15 +27,36 @@
     --paragraph:500 1rem/1.25 var(--ff-base);
     --link:500 0.875/1 var(--ff-base);
 }
+
+html {
+    background-color: var(--background-primary);
+}
+
+main {
+
+   & a{
+    text-decoration: none;
+   } 
+}
  
-.display-only {
+.desktop-only {
     display: none;
 }
 
-@media (width >=80em) {
+@media(width >=80em) {
+    & html {
+        max-width: 80em;
+    }
 
-    
-    .display-only {
+    & .desktop-only {
         display: initial;
     }
+
+    & header{
+        display: flex;
+
+        justify-content: center;
+        margin-top:1.56rem;
+    }
+    
 }

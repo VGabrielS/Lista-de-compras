@@ -8,12 +8,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Compras</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header>
+        <img src="assets/logo.svg" alt="" class="desktop-only">
+    </header>
+    <main>
+        <a href="#"> 
+            <img src="assets/seta.svg"> Volta
+        </a>
+
+        <h1>Compras da Semana</h1>
+
+        <div>
+            <input type="text" placeholder="Adicione um novo item">
+            <button>Adicionar Item</button>
+        </div>
+
+        <div>
+            <div class="">
+            <input type="checkbox" name="" id=" ">
+            <p>Pão de forma</p>
+            </div>
+
+            <div class="">
+            <input type="checkbox" name="" id=" ">
+            <p>Café</p>
+            </div>
+
+            <div class="">
+            <input type="checkbox" name="" id=" ">
+            <p>Suco de laranja</p>
+            </div>
+
+            <div class="">
+            <input type="checkbox" name="" id=" ">
+            <p>Bolacha</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="display-none">
+        <img src="assets/warning-cicle.svg">
+        <p>O item foi removido da lista</p>
+        <img src="assets/X.svg">
+    </footer>
 
     <script src="scripts.js"></script>
 </body>

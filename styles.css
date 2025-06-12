@@ -59,7 +59,7 @@ body {
 
             }
 
-            & button{
+            & .btn{   
                 width: 20rem;
                 height: 2.75rem;
                 border-radius: 0.5rem;
@@ -125,6 +125,13 @@ body {
                     margin-left: auto;
                     padding-left: 0.75rem;
                 }
+
+                button {
+                    margin-right: 0.5rem;
+                    margin-left: auto;
+                    background-color: var(--always-white);
+                    border: none;
+                }
             }
         }
     }
@@ -154,6 +161,9 @@ body {
     }
 }
 
+.display-none{
+    display: none;
+}
  
 .desktop-only {
     display: none;
@@ -190,8 +200,8 @@ body {
                     height: 2.75rem;
                     border-radius: 0.5rem;
                 }
-
-                & button{
+                
+                & .btn{
                     width: 10rem;
                     height: 2.75rem;
                     border-radius: 0.5rem;

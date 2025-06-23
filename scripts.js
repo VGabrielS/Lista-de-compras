@@ -21,15 +21,25 @@ function addProduct () {
     const productName = document.createElement("span")
     const check = document.createElement("input")
     check.type = "checkbox"
-    
+    const buttRemove = document.createElement("button")
+    const image = document.createElement("img")
+    image.src = "assets/lixeira.svg"
+    image.alt = "Remover"
+
+       
+
     productName.textContent = food.value;
     newProduct.classList.add("product")
     newProduct.appendChild(check);
     newProduct.append(productName)
     product.append(newProduct)
+    buttRemove.append(image)
+    newProduct.append(buttRemove)
     
     food.value = "";
+
+    buttRemove.addEventListener("click", (event)=> {
+        event.preventDefault
+        newProduct.remove()
+    } )
 }   
-
-
-

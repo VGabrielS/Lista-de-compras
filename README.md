@@ -1,6 +1,6 @@
 # Lista de Compras 🚀
 
-Um projeto com o intuito de facilitar a suas compras. Você pode adicionar e/ou remover os produtos da lista de forma eficiente e fácil de usar.
+Um projeto com o intuito de facilitar suas compras. Você pode adicionar e/ou remover os produtos da lista de forma eficiente e fácil de usar.
 
 ## 📌 Status do Projeto
 ✅ Finalizado
